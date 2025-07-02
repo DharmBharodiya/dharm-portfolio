@@ -1,5 +1,9 @@
 import React from 'react'
 import MainPara from './components/Home/MainPara'
+import { Route, Routes } from 'react-router-dom'
+import HomePage from './pages/HomePage'
+import AboutPage from './pages/AboutPage'
+
 
 function App() {
   return (
@@ -8,7 +12,10 @@ function App() {
     //   <p className='mt-4 text-lg font-space-grotesk font-light'>Welcome to my portfolio!</p>
     // </div>
   <div className='bg-black w-full min-h-screen flex justify-center items-center'>
-    <MainPara/>
+    <Routes>
+      <Route path="/" element={<HomePage/>} />
+      <Route path="/about" element={<AboutPage/>} />
+    </Routes>
   </div>
   )
 }

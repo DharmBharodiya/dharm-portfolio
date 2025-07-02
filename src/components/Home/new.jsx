@@ -5,12 +5,12 @@ import { ArrowUpRight } from 'lucide-react'
 function MainPara() {
 
   return (
-    <div className='flex justify-center flex-col items-center selection:bg-green-500 selection:text-black bg-white dark:bg-black transition-colors duration-300'>
+    <div className='flex justify-center flex-col items-center selection:bg-green-500 selection:text-black'>
         <div className='flex flex-col-reverse sm:flex-row justify-center items-center mb-10 w-full'>
             <div className='flex-1 flex flex-col justify-center items-center sm:items-start sm:ml-10'>
-              <h1 className='text-black dark:text-white font-geist font-extrabold text-[60px] sm:text-[70px] mb-0 text-left transition-colors duration-300'>Dharm<ThemeBtn/></h1>
-              <p className='text-gray-800 dark:text-white text-[18px] mt-0 text-left selection:bg-pink-500 transition-colors duration-300'>Pixels. Purpose. Possibility.</p>
-              <p className='text-gray-600 dark:text-[#bbbbbb] text-[16px] max-w-xs leading-5 text-center sm:text-left transition-colors duration-300'>i  turn thoughts into threads of code and color—crafting digital spaces where design breathes, interaction dances, and ideas come alive.</p>
+              <h1 className='text-white font-geist font-extrabold text-[60px] sm:text-[70px] mb-0 text-left dark:text-yellow-400'>Dharm<ThemeBtn/></h1>
+              <p className='text-white text-[18px] mt-0 text-left selection:bg-pink-500'>Pixels. Purpose. Possibility.</p>
+              <p className='text-[#bbbbbb] text-[16px] max-w-xs leading-5 text-center sm:text-left'>i  turn thoughts into threads of code and color—crafting digital spaces where design breathes, interaction dances, and ideas come alive.</p>
             </div>
             <div className='flex-1 flex justify-center sm:mb-0'>
               <img src="../public/images/dhrm1.png" alt="dhrmcharacter" className='w-[165px] h-[165px] sm:w-[200px] sm:h-[200px]' />
