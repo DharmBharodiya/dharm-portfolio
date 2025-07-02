@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import BentoBox from './BentoBox'
 import ThemeBtn from './ThemeBtn'
 import { ArrowUpRight } from 'lucide-react'
@@ -6,15 +5,15 @@ import { ArrowUpRight } from 'lucide-react'
 function MainPara() {
 
   return (
-    <div className='flex justify-center flex-col items-center selection:bg-red-500'>
+    <div className='flex justify-center flex-col items-center selection:bg-green-500 selection:text-black'>
         <div className='flex flex-col-reverse sm:flex-row justify-center items-center mb-10 w-full'>
-            <div className='flex-1 flex flex-col justify-center items-center sm:items-end'>
-              <h1 className='text-white font-geist font-extrabold text-[60px] sm:text-[70px] mb-0'>Dharm<ThemeBtn/></h1>
-              <p className='text-white text-[18px] mt-0 text-center sm:text-green-500'>Pixels. Purpose. Possibility.</p>
-              <p className='text-[#bbbbbb] text-[16px] max-w-xs leading-5 text-center'>i  turn thoughts into threads of code and color—crafting digital spaces where design breathes, interaction dances, and ideas come alive.</p>
+            <div className='flex-1 flex flex-col justify-center items-center sm:items-start sm:ml-10'>
+              <h1 className='text-white font-geist font-extrabold text-[60px] sm:text-[70px] mb-0 text-left'>Dharm<ThemeBtn/></h1>
+              <p className='text-white text-[18px] mt-0 text-left selection:bg-pink-500'>Pixels. Purpose. Possibility.</p>
+              <p className='text-[#bbbbbb] text-[16px] max-w-xs leading-5 text-center sm:text-left'>i  turn thoughts into threads of code and color—crafting digital spaces where design breathes, interaction dances, and ideas come alive.</p>
             </div>
-            <div className='flex-1 flex justify-center sm:justify-start sm:mb-0'>
-              <img src="../public/images/dhrm1.png" alt="dhrmcharacter" className='w-[175px] h-[175px] sm:w-[200px] sm:h-[200px]' />
+            <div className='flex-1 flex justify-center sm:mb-0'>
+              <img src="../public/images/dhrm1.png" alt="dhrmcharacter" className='w-[165px] h-[165px] sm:w-[200px] sm:h-[200px]' />
             </div>
             {/* <ArrowUpRight size={46} color='white'/> */}
         </div>
@@ -32,7 +31,7 @@ function MainPara() {
             <BentoBox
             className='bg-[linear-gradient(90deg,_rgba(26,0,51,0.2)_0%,_rgba(76,29,149,0.25)_50%,_rgba(255,0,150,0.30)_100%)]'
             heading="Projects"
-            description="see what dharm is makes hehe"
+            description="see what dharm makes hehe"
             width="col-span-3 sm:col-span-4"
             flowerClass="absolute hidden sm:block -right-7 top-10 w-15 h-15"
             flowerClass2="hidden"
@@ -52,8 +51,8 @@ function MainPara() {
             heading="Socials"
             description="where can you find me?"
             width="col-span-6 sm:col-span-2"
-            flowerClass="absolute left-65 top-28 w-12 h-12 sm:-left-8 sm:top-30 sm:w-13 sm:h-13"
-            flowerClass2="block w-10 h-10 -top-6 -left-4 absolute sm:hidden"
+            flowerClass="absolute left-65 top-27 w-10 h-10 sm:-left-8 sm:top-30 sm:w-13 sm:h-13"
+            flowerClass2="block w-10 h-10 -top-6 left-2 absolute sm:hidden"
             />
         </div>
     </div>
