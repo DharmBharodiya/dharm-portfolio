@@ -51,7 +51,7 @@ function MainPara() {
             className='bg-[linear-gradient(90deg,_rgba(2,0,36,1)_0%,_rgba(9,9,121,1)_50%,_rgba(0,212,255,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(2,0,36,0.65)_0%,_rgba(9,9,121,0.60)_50%,_rgba(0,212,255,0.70)_100%)] transition-colors duration-200'
             width="col-span-6 sm:col-span-2"
             heading="About"
-            description="get to know dharm :) also some cool photographs & artworks"
+            description="get to know dharm :)"
             flowerClass="absolute -right-1 -top-8  sm:-right-7 sm:-top-8 w-18 h-18 sm:w-22 sm:h-22"
             flowerClass2="hidden"
             thePath="/about"
@@ -68,8 +68,8 @@ function MainPara() {
 
             <BentoBox
             className='bg-[linear-gradient(90deg,_rgba(51,0,0,1)_0%,_rgba(136,0,0,1)_50%,_rgba(255,69,0,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(51,0,0,0.6)_0%,_rgba(136,0,0,0.65)_50%,_rgba(255,69,0,0.70)_100%)] transition-colors duration-200'
-            heading="Blogs"
-            description="i do write sometimes"
+            heading="Gallery"
+            description="my artworks & photographs"
             width="col-span-3 sm:col-span-4"
             flowerClass="absolute hidden sm:block -left-8 -top-6 w-13 h-13"
             flowerClass2="hidden"

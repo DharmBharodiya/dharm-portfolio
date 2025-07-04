@@ -1,10 +1,10 @@
-import { Home, Info, Rss, BriefcaseBusiness, File, Send } from "lucide-react";
+import { Home, Info, Rss, BriefcaseBusiness, File, Send, Flower, LaptopMinimal, Images} from "lucide-react";
 
 const navItems = [
   {
     label: "Home",
     href: "/",
-    icon: Home,
+    icon: Flower,
   },
   {
     label: "About",
@@ -12,14 +12,14 @@ const navItems = [
     icon: Info,
   },
   {
-    label: "Blogs",
-    href: "/blogs",
-    icon: Rss,
+    label: "Gallery",
+    href: "/gallery",
+    icon: Images,
   },
   {
     label: "Projects",
     href: "/projects",
-    icon: BriefcaseBusiness,
+    icon: LaptopMinimal,
   },
   {
     label: "Resume",
