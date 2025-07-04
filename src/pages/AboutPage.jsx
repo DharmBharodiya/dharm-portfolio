@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import SkillRepeat from '../components/About/SkillRepeat'
 import Education from '../components/About/Education'
 import Expereince from '../components/About/Expereince'
+import FloatingDock from '../components/FloatingDock/Dock'
 
 function AboutPage() {
   return (
@@ -24,6 +25,7 @@ function AboutPage() {
          timelineHeading="Experience"
          content={<Expereince/>}/>
         </div>
+        <FloatingDock/>
     </div>
   )
 }
