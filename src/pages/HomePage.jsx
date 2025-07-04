@@ -1,9 +1,13 @@
 import React from 'react'
 import MainPara from '../components/Home/MainPara'
+import TestFont from '../components/TestFont'
+import { useTheme } from '../ThemeContext'
 
 function HomePage() {
+  const {theme} = useTheme();
   return (
-    <div className='w-auto min-h-screen flex justify-center items-center bg-white dark:bg-black transition-colors duration-300'>
+    <div className={`w-auto min-h-screen flex justify-center items-center`}>
+        {/* <TestFont/> */}
         <MainPara/>
     </div>
   )

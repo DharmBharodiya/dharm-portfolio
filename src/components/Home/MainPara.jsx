@@ -1,14 +1,42 @@
-import BentoBox from './BentoBox'
-import ThemeBtn from './ThemeBtn'
-import { ArrowUpRight } from 'lucide-react'
+import BentoBox from './BentoBox';
+import ThemeBtn from './ThemeBtn';
+// import { ArrowUpRight } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 function MainPara() {
+  const text = "Dharm";
+  const textVariants = {
+    hidden: { opacity: 0, y: 100 },
+    visible: (i) => ({
+      opacity: 1,
+      y: 0,
+      transition: {
+        delay: i * 0.1,
+        duration: 0.5,
+      },
+    }),
+  };
+
+ 
 
   return (
     <div className='flex justify-center flex-col items-center selection:bg-green-500 selection:text-black transition-colors duration-300'>
         <div className='flex flex-col-reverse sm:flex-row justify-center items-center mb-10 w-full'>
             <div className='flex-1 flex flex-col justify-center items-center sm:items-start sm:ml-10'>
-              <h1 className='text-black dark:text-white font-geist font-extrabold text-[60px] sm:text-[70px] mb-0 text-left transition-colors duration-300'>Dharm<ThemeBtn/></h1>
+              <h1 className='dark:text-white font-geist font-extrabold text-[60px] sm:text-[70px] mb-0 text-left transition-colors duration-300'>
+                {text.split('').map((char, index) => (
+                  <motion.span
+                    key={index}
+                    custom={index}
+                    initial="hidden"
+                    animate="visible"
+                    variants={textVariants}
+                  >
+                    {char}
+                  </motion.span>
+                ))}
+                <ThemeBtn/>
+              </h1>
               <p className='text-gray-800 dark:text-white text-[18px] mt-0 text-left selection:bg-pink-500 transition-colors duration-300'>Pixels. Purpose. Possibility.</p>
               <p className='text-gray-600 dark:text-[#bbbbbb] text-[16px] max-w-xs leading-5 text-center sm:text-left transition-colors duration-300'>i  turn thoughts into threads of code and color—crafting digital spaces where design breathes, interaction dances, and ideas come alive.</p>
             </div>
@@ -20,7 +48,7 @@ function MainPara() {
         
         <div className='grid grid-cols-6 w-full p-4 gap-2 sm:w-[700px]'>
             <BentoBox
-            className='bg-gradient-to-r from-[#020024]/25 via-[#090979]/20 to-[#00D4FF]/30'
+            className='bg-[linear-gradient(90deg,_rgba(2,0,36,1)_0%,_rgba(9,9,121,1)_50%,_rgba(0,212,255,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(2,0,36,0.65)_0%,_rgba(9,9,121,0.60)_50%,_rgba(0,212,255,0.70)_100%)] transition-colors duration-200'
             width="col-span-6 sm:col-span-2"
             heading="About"
             description="get to know dharm :) also some cool photographs & artworks"
@@ -30,7 +58,7 @@ function MainPara() {
             />
 
             <BentoBox
-            className='bg-[linear-gradient(90deg,_rgba(26,0,51,0.2)_0%,_rgba(76,29,149,0.25)_50%,_rgba(255,0,150,0.30)_100%)]'
+            className='bg-[linear-gradient(90deg,_rgba(26,0,51,1)_0%,_rgba(76,29,149,1)_50%,_rgba(255,0,150,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(26,0,51,0.6)_0%,_rgba(76,29,149,0.65)_50%,_rgba(255,0,150,0.90)_100%)] transition-colors duration-200'
             heading="Projects"
             description="see what dharm makes hehe"
             width="col-span-3 sm:col-span-4"
@@ -39,7 +67,7 @@ function MainPara() {
             />
 
             <BentoBox
-            className='bg-[linear-gradient(90deg,_rgba(51,0,0,0.2)_0%,_rgba(136,0,0,0.25)_50%,_rgba(255,69,0,0.3)_100%)]'
+            className='bg-[linear-gradient(90deg,_rgba(51,0,0,1)_0%,_rgba(136,0,0,1)_50%,_rgba(255,69,0,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(51,0,0,0.6)_0%,_rgba(136,0,0,0.65)_50%,_rgba(255,69,0,0.70)_100%)] transition-colors duration-200'
             heading="Blogs"
             description="i do write sometimes"
             width="col-span-3 sm:col-span-4"
@@ -48,7 +76,7 @@ function MainPara() {
             />
 
             <BentoBox
-            className='bg-[linear-gradient(90deg,_rgba(0,51,51,0.2)_0%,_rgba(0,128,128,0.25)_50%,_rgba(57,255,20,0.3)_100%)]'
+            className='bg-[linear-gradient(90deg,_rgba(0,51,51,1)_0%,_rgba(0,128,128,1)_50%,_rgba(57,255,20,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(0,51,51,0.6)_0%,_rgba(0,128,128,0.65)_50%,_rgba(57,255,20,0.70)_100%)] transition-colors duration-200'
             heading="Socials"
             description="where can you find me?"
             width="col-span-6 sm:col-span-2"
@@ -57,7 +85,7 @@ function MainPara() {
             />
         </div>
     </div>
-  )
+  );
 }
 
-export default MainPara
+export default MainPara;

@@ -4,14 +4,14 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
         'geist': ['Geist', 'sans-serif'],
         'space-grotesk': ['Space Grotesk', 'sans-serif'],
+        'new-valley': ['New Valley', 'sans-serif'],
       },
     },
   },
   plugins: [],
-} 
+}

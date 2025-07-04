@@ -1,8 +1,11 @@
 import { ArrowUpRight, Repeat } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
+import { useTheme } from '../../ThemeContext'
 
 function BentoBox({className = "", width, heading, description, flowerClass, flowerClass2, thePath}) {
+
+  const {theme} = useTheme()
 
   return (
     <div className={`${width} ${className} cursor-pointer relative h-35 sm:h-40 rounded-2xl p-4 hover:scale-100 hover:z-10000 transition duration-75`}>
@@ -17,7 +20,7 @@ function BentoBox({className = "", width, heading, description, flowerClass, flo
           <p className='text-white/80 text-10px sm:text-[15px] break-words font-space-grotesk'>{description}</p>
         </Link>
         <motion.img
-          src="/images/flower.png"
+          src={`${theme === "dark" ? "/images/flowerWhite.png" : "/images/flowerBordered.png"}`}
           alt="flower"
           className={`${flowerClass} z-1000000`}
           animate={{ rotate: 360 }}
@@ -30,7 +33,7 @@ function BentoBox({className = "", width, heading, description, flowerClass, flo
           }}
         />
         <motion.img
-          src="/images/flower.png"
+          src={`${theme === "dark" ? "/images/flowerWhite.png" : "/images/flowerBordered.png"}`}
           alt="flower"
           className={`${flowerClass2} z-1000000`}
           animate={{ rotate: 360 }}
