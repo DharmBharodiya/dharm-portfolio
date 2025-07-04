@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import navItems from "./navItems"; // This should still return array of { href, label, icon }
 
 const FloatingDock = () => {
@@ -26,7 +26,7 @@ const FloatingDock = () => {
                   {/* Tooltip */}
                   <span
                     className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-1 text-sm 
-                                 text-white dark:text-gray-200 bg-gray-800 dark:bg-gray-700 rounded-md 
+                                 text-white dark:text-gray-200 bg-black/80 dark:bg-black/70 rounded-md 
                                  opacity-0 group-hover:opacity-100 transition-opacity duration-200"
                   >
                     {item.label}
@@ -36,8 +36,8 @@ const FloatingDock = () => {
                   <div
                     className={`
                       p-3 mx-1 rounded-full transition-all duration-300 ease-out
-                      hover:bg-gray-100 dark:hover:bg-gray-700/50
-                      ${isActive ? "bg-gray-100 dark:bg-gray-700 scale-110" : "hover:scale-110"}
+                      hover:bg-black/20 dark:hover:bg-black/40
+                      ${isActive ? "bg-black/40 dark:bg-black/20 scale-110" : "hover:scale-110"}
                       group-hover:-translate-y-1
                     `}
                   >
@@ -46,7 +46,7 @@ const FloatingDock = () => {
                         ${
                           isActive
                             ? "text-gray-900 dark:text-gray-100"
-                            : "text-gray-600 dark:text-gray-400"
+                            : "text-gray-800 dark:text-gray-400"
                         }
                       `}
                     />

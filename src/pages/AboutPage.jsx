@@ -7,10 +7,10 @@ import FloatingDock from '../components/FloatingDock/Dock'
 
 function AboutPage() {
   return (
-    <div className='w-full flex justify-center items-left sm:items-left sm:ml-60 mt-10 flex-col pl-10 pr-10'> {/* Changed to padding for consistent alignment */}
+    <div className='w-full flex justify-center items-left sm:items-left sm:ml-20 md:ml-40 lg:ml-100 mt-10 flex-col pl-10 pr-10'> {/* Changed to padding for consistent alignment */}
          <Header
             heading="About"
-            description="i&apos;m an artist, illustrator & filmmaker remixing creativity with code. i turn pixels, paint, and a few 0s & 1s into digital magic."
+            description="i&apos;m an artist, filmmaker & developer - remixing creativity with code. i turn pixels, paint, and a few 0s & 1s into digital magic."
             className={"w-[250px] sm:w-lg mb-10 relative" } /* Removed margin-left */
          />
         <div> {/* Removed margin-left */}
