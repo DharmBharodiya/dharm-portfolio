@@ -16,7 +16,7 @@ export const frameworksAndTools = [
 ];
 
 export const designTools = [
-  { name: "Photoshop", color: "#264e86" },
+  { name: "Photoshop", color: "#2e5fa3" },
   { name: "Illustrator", color: "#FF7F00" },
   { name: "Figma", color: "#0ACF83" },
   { name: "Procreate", color: "#c44fbd" }
