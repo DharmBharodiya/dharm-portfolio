@@ -13,7 +13,7 @@ function SkillRepeat() {
         <motion.img
         src={`${theme === "dark" ? "/images/flowerWhite.png" : "/images/flowerBlack.png"}`}
         alt="flowerwhite"
-        className="absolute w-8 h-8 sm:w-10 sm:h-10 -top-17.5 -left-4"
+        className="absolute w-6 h-6 sm:w-8 sm:h-8 -top-19 -left-4"
         animate={{ rotate: 360 }}
           initial={{ rotate: 0 }}
           transition={{
