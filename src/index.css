@@ -9,6 +9,6 @@
     src: url('/fonts/new-valley.otf') format('opentype');
   }
   body {
-    font-family: 'Geist', 'Space Grotesk', Arial, sans-serif;
+    font-family: 'Geist', 'Space Grotesk', Arial, sans-serif; /* Reverted to original global font-family */
   }
 }

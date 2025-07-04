@@ -41,7 +41,7 @@ function MainPara() {
               <p className='text-gray-600 dark:text-[#bbbbbb] text-[16px] max-w-xs leading-5 text-center sm:text-left transition-colors duration-300'>i  turn thoughts into threads of code and color—crafting digital spaces where design breathes, interaction dances, and ideas come alive.</p>
             </div>
             <div className='flex-1 flex justify-center sm:mb-0'>
-              <img src="../public/images/dhrm1.png" alt="dhrmcharacter" className='w-[165px] h-[165px] sm:w-[200px] sm:h-[200px]' />
+              <img src="images/dhrm1.png" alt="dhrmcharacter" className='w-[165px] h-[165px] sm:w-[200px] sm:h-[200px]' />
             </div>
             {/* <ArrowUpRight size={46} color='white'/> */}
         </div>
