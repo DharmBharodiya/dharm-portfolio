@@ -11,7 +11,7 @@ function App() {
     //   <h1 className='text-white bg-black text-center px-7 py-4 text-2xl rounded-[30px] hover:bg-red-500 duration-100 cursor-pointer dark:bg-amber-300 dark:text-black hover:text-white font-geist font-extrabold'>Dharm</h1>
     //   <p className='mt-4 text-lg font-space-grotesk font-light'>Welcome to my portfolio!</p>
     // </div>
-  <div className='w-full min-h-screen flex justify-center items-center light:bg-white dark:bg-black transition-colors duration-300'>
+  <div className='w-full min-h-screen flex justify-center items-center bg-white dark:bg-black transition-colors duration-300'>
     <Routes>
       <Route path="/" element={<HomePage/>} />
       <Route path="/about" element={<AboutPage/>} />

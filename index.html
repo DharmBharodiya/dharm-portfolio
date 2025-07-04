@@ -10,11 +10,13 @@
         (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
       if (theme === "dark") {
         document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
       }
     </script>
 
   </head>
-  <body>
+  <body class="bg-white dark:bg-black">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

@@ -3,12 +3,12 @@ function TimeLine({timelineHeading, content}) {
   return (
     <div className="relative mb-10">
       {/* vertical line */}
-      <div className="bg-black dark:bg-white/100 w-px h-full absolute"></div>
+      <div className="bg-black dark:bg-white w-px h-full absolute"></div>
       
       {/* heading */}
       <div className="relative mb-6">
-        <div className="w-2.5 h-2.5 sm:w-4 sm:h-4 bg-black dark:bg-white/100 rounded-full -translate-x-1/2"></div>
-        <h1 className="absolute top-0 ml-4 text-2xl sm:text-3xl leading-6  text-black dark:text-white" style={{ fontFamily: 'New Valley, sans-serif'}}>{timelineHeading}</h1>
+        <div className="w-2.5 h-2.5 sm:w-4 sm:h-4 bg-black dark:bg-white rounded-full -translate-x-1/2"></div>
+        <h1 className="relative -top-3 ml-4 text-2xl sm:text-4xl leading-6 text-black dark:text-white" style={{ fontFamily: 'New Valley, sans-serif'}}>{timelineHeading}</h1>
       </div>
 
       {/* sub-dots */}

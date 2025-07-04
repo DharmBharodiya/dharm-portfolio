@@ -1,4 +1,3 @@
-
 import Timeline from '../components/About/TimeLine'
 import Header from '../components/Header'
 import SkillRepeat from '../components/About/SkillRepeat'
@@ -8,22 +7,22 @@ import FloatingDock from '../components/FloatingDock/Dock'
 
 function AboutPage() {
   return (
-    <div className='w-full flex justify-center items-left flex-col ml-10 mr-10'>
+    <div className='w-full flex justify-center items-left sm:items-left ml-60 mt-10 flex-col pl-10 pr-10'> {/* Changed to padding for consistent alignment */}
          <Header
             heading="About"
             description="i&apos;m an artist, illustrator & filmmaker remixing creativity with code. i turn pixels, paint, and a few 0s & 1s into digital magic."
-            className={"w-[250px] sm:w-lg mb-10"}
+            className={"w-[250px] sm:w-lg mb-10 relative" } /* Removed margin-left */
          />
-        <div>
-         <Timeline
-         timelineHeading="Education"
-         content={<Education/>}/>
-         <Timeline
-         timelineHeading="Skills"
-         content={<SkillRepeat/>}/>
-         <Timeline
-         timelineHeading="Experience"
-         content={<Expereince/>}/>
+        <div> {/* Removed margin-left */}
+            <Timeline
+            timelineHeading="Education"
+            content={<Education/>}/>
+            <Timeline
+            timelineHeading="Skills"
+            content={<SkillRepeat/>}/>
+            <Timeline
+            timelineHeading="Experience"
+            content={<Expereince/>}/>
         </div>
         <FloatingDock/>
     </div>
