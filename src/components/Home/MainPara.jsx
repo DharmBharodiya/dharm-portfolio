@@ -64,6 +64,7 @@ function MainPara() {
             width="col-span-3 sm:col-span-4"
             flowerClass="absolute hidden sm:block -right-7 top-10 w-15 h-15"
             flowerClass2="hidden"
+            thePath="/projects"
             />
 
             <BentoBox

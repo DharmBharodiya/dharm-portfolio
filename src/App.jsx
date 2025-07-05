@@ -1,9 +1,10 @@
-
 import { Route, Routes } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
 import SocialsPage from './pages/SocialsPage'
 import GalleryPage from './pages/GalleryPage'
+import PageNotFound from './pages/PageNotFound'
+import ProjectsPage from './pages/ProjectsPage'
 
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
       <Route path="/about" element={<AboutPage/>} />
       <Route path="/socials" element={<SocialsPage/>} />
       <Route path="/gallery" element={<GalleryPage/>} />
+      <Route path="/projects" element={<ProjectsPage/>} />
+      <Route path="*" element={<PageNotFound />} />
     </Routes>
   </div>
   )

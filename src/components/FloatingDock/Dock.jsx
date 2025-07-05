@@ -22,7 +22,13 @@ const FloatingDock = () => {
               const isActive = pathname === item.href;
 
               return (
-                <a key={index} href={item.href} className="relative group">
+                <a
+                  key={index}
+                  href={item.href}
+                  target={item.target}
+                  rel={item.rel}
+                  className="relative group"
+                >
                   {/* Tooltip */}
                   <span
                     className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-1 text-sm 

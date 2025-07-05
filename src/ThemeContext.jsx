@@ -4,10 +4,16 @@ import React, { createContext, useState, useContext, useEffect } from 'react';
 const ThemeContext = createContext();
 
 export const ThemeProvider = ({ children }) => {
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useState(() => {
+    return localStorage.getItem('theme') || 'dark';
+  });
 
   const toggleTheme = () => {
-    setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
+    setTheme((prevTheme) => {
+      const newTheme = prevTheme === 'light' ? 'dark' : 'light';
+      localStorage.setItem('theme', newTheme);
+      return newTheme;
+    });
   };
 
   useEffect(() => {
@@ -18,10 +24,6 @@ export const ThemeProvider = ({ children }) => {
       root.classList.remove('dark');
     }
   }, [theme]);
-
-  // useEffect(() => {
-  //   document.documentElement.classList.add('dark');
-  // }, []);
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
