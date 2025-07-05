@@ -12,7 +12,7 @@ function SocialsPage() {
          <motion.img
             src={`${theme === "dark" ? "/images/flowerWhite.png" : "/images/flowerBlack.png"}`}
             alt="flowerwhite"
-            className="absolute w-12 h-12 sm:w-14 sm:h-14 ml-48"
+            className="absolute w-12 h-12 sm:w-14 sm:h-14 ml-48 sm:ml-58"
             animate={{ rotate: 360 }}
             initial={{ rotate: 0 }}
             transition={{
