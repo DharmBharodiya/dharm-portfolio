@@ -13,16 +13,16 @@ export const socials = [
     },{
         title: "code & projects",
         icon: GithubIcon,
-        link: "https://www.github.com/"
+        link: "https://www.github.com/DharmBharodiya"
     },
     {
         title: "professional instagram",
         icon: LinkedinIcon,
-        link: "https://www.linkedin.com/"
+        link: "https://www.linkedin.com/in/dharm-bharodiya-8133711b0/"
     },
     {
         title: "videos n stuff",
         icon: YoutubeIcon,
-        link: "https://www.youtube.com/"
+        link: "https://www.youtube.com/@dh4rmbharodiya"
     }
 ]
