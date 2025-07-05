@@ -82,6 +82,7 @@ function MainPara() {
             width="col-span-6 sm:col-span-2"
             flowerClass="absolute left-65 top-27 w-10 h-10 sm:-left-8 sm:top-30 sm:w-13 sm:h-13"
             flowerClass2="block w-10 h-10 -top-6 left-2 absolute sm:hidden"
+            thePath="/socials"
             />
         </div>
     </div>

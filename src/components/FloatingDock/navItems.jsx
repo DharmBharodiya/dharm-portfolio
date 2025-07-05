@@ -27,8 +27,8 @@ const navItems = [
     icon: File,
   },
   {
-    label: "Connect",
-    href: "/connect",
+    label: "Socials",
+    href: "/socials",
     icon: Send,
   },
 ];
