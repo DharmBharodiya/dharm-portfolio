@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
 import SocialsPage from './pages/SocialsPage'
+import GalleryPage from './pages/GalleryPage'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Route path="/" element={<HomePage/>} />
       <Route path="/about" element={<AboutPage/>} />
       <Route path="/socials" element={<SocialsPage/>} />
+      <Route path="/gallery" element={<GalleryPage/>} />
     </Routes>
   </div>
   )

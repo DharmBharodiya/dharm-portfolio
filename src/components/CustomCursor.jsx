@@ -10,7 +10,7 @@ function CustomCursor() {
         };
         window.addEventListener("mousemove", move);
 
-        return () => window.removeEventListener("mousemove", move)
+        // return () => window.removeEventListener("mousemove", move)
     }, [])
 
   return (
