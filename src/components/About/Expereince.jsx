@@ -15,7 +15,7 @@ function Expereince() {
         <motion.img
         src={`${theme === "dark" ? "/images/flowerWhite.png" : "/images/flowerBlack.png"}`}
         alt="flower"
-        className="absolute w-10 h-10 sm:w-12 sm:h-12 -top-14 ml-43"
+        className="absolute w-10 h-10 sm:w-12 sm:h-12 -top-14 ml-42"
         animate={{ rotate: 360 }}
           initial={{ rotate: 0 }}
           transition={{

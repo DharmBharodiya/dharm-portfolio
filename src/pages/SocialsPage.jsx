@@ -3,12 +3,14 @@ import Header from '../components/Header'
 import Links from '../components/Socials/Links'
 import { motion } from 'framer-motion'
 import { useTheme } from '../ThemeContext'
+import CustomCursor from '../components/CustomCursor'
 
 function SocialsPage() {
 
     const {theme} = useTheme();
     return (
     <div>
+        <CustomCursor/>
          <motion.img
             src={`${theme === "dark" ? "/images/flowerWhite.png" : "/images/flowerBlack.png"}`}
             alt="flowerwhite"
@@ -23,7 +25,7 @@ function SocialsPage() {
       />
         <Header
             heading="Socials"
-            description="Connect with dharm on several internet penthouses that he owns, you could connect or drop a follow for a drink :)"
+            description="Connect with dharm on several internet penthouses that he owns, you could connect or drop a follow for a drink :)🍹"
             className={"w-[250px] sm:w-2xl mb-10 relative" } /* Removed margin-left */
          />
         <Links/>
