@@ -1,6 +1,6 @@
 import React from 'react'
 import ImageCard from './ImageCard'
-import images from './images'
+import images from './images2'
 import Instagram from './Instagram'
 import { motion } from 'framer-motion'
 
@@ -22,8 +22,9 @@ function ActualGallery() {
             transition={{ duration: 0.5, ease: 'easeOut' }}
             >
                 <ImageCard
-                src={image}
-                alt={image}
+                src={image.src}
+                alt={image.src}
+                description={image.description}
                 />
             </motion.div>
         ))}

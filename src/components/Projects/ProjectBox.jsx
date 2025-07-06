@@ -24,7 +24,7 @@ function ProjectBox({flowerClass, bg, title, description, src}) {
         </div>
         <div className="cursor-pointer hover:translate-x-2 transition-transform duration-200">
             <h1>
-                <NavLink to={src}>
+                <NavLink to={src} target="_blank">
                     <ArrowUpRight/>
                 </NavLink>
             </h1>

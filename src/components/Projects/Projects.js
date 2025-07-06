@@ -54,10 +54,10 @@ export const projects = [
         src:"#"
     },
     {
-        title: "built a personal portfolio",
+        title: "a personal portfolio",
         description: "Designed and developed a portfolio website to showcase projects and skills",
         bg: "bg-[linear-gradient(90deg,_rgba(0,0,51,1)_0%,_rgba(0,51,102,1)_50%,_rgba(0,102,204,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(0,0,51,0.6)_0%,_rgba(0,51,102,0.65)_50%,_rgba(0,102,204,0.70)_100%)] transition-colors duration-200",
         flowerClass: "absolute w-10 h-10 -bottom-5 right-5",
-        src:"#"
+        src:"https://dharm-portfolio-gamma.vercel.app/"
     },
 ];
