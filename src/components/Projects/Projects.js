@@ -4,7 +4,7 @@ export const projects = [
         description: "personalized tool that leverages AI to help with GRE preparation",
         bg: "bg-[linear-gradient(90deg,_rgba(2,0,36,1)_0%,_rgba(9,9,121,1)_50%,_rgba(0,212,255,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(2,0,36,0.65)_0%,_rgba(9,9,121,0.60)_50%,_rgba(0,212,255,0.70)_100%)] transition-colors duration-200",
         flowerClass: "absolute w-8 h-8 -top-5 right-10",
-        src: "https://github.com/DharmBharodiya/GREP"
+        src: "https://grep-rho.vercel.app/"
     },
     {
         title: "Math Riot",
@@ -14,11 +14,11 @@ export const projects = [
         src: "https://github.com/DharmBharodiya/math-riot"
     },
     {
-        title: "insta scroll benchmarking",
-        description: "Tested thumb fatigue limits across 3 time zones.",
+        title: "Learnt OpenCV",
+        description: "Explored OpenCV to contribute to an oceanography research.",
         bg: "bg-[linear-gradient(90deg,_rgba(51,0,0,1)_0%,_rgba(136,0,0,1)_50%,_rgba(255,69,0,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(51,0,0,0.6)_0%,_rgba(136,0,0,0.65)_50%,_rgba(255,69,0,0.70)_100%)] transition-colors duration-200",
         flowerClass: "absolute w-12 h-12 -bottom-6 left-0",
-        src:"#"
+        src:"https://github.com/DharmBharodiya/OpenCV"
     },
     {
         title: "took a ride in uber",
@@ -47,8 +47,8 @@ export const projects = [
     //     flowerClass: "absolute w-6 h-6 -bottom-2 left-20 -translate-x-1/2"
     // },
     {
-        title: "went hiking",
-        description: "Conquered a 10-mile trail with stunning views",
+        title: "insta scroll benchmarking",
+        description: "Tested thumb fatigue limits across 3 time zones.",
         bg: "bg-[linear-gradient(90deg,_rgba(0,51,0,1)_0%,_rgba(0,128,0,1)_50%,_rgba(0,255,0,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(0,51,0,0.6)_0%,_rgba(0,128,0,0.65)_50%,_rgba(0,255,0,0.70)_100%)] transition-colors duration-200",
         flowerClass: "absolute w-14 h-14 -bottom-8 right-1/4",
         src:"#"

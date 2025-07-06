@@ -19,7 +19,8 @@ function Instagram() {
                 duration: 8, // 10 seconds for a moderate spin speed
                 repeatType: 'loop',}}
       />
-        <h1 className="text-2xl font-medium mb-3">check out more on</h1>
+        <h1 className="text-xl italic"><span className="text-red-500 text-3xl not-italic font-bold">woohooo</span> <br/> you scrolled till here</h1>
+        <h1 className="text-xl font-medium mb-3">check out more on</h1>
         <div className="flex">
             <div className="flex pr-6 group">
                 <NavLink to="https://www.instagram.com/dharm_bharodiya" target="_blank">
