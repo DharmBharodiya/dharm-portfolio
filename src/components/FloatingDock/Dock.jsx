@@ -14,7 +14,7 @@ const FloatingDock = () => {
       <div className="h-24" />
 
       {/* Fixed dock */}
-      <div className="fixed bottom-6 left-1/2 transform -translate-x-1/2 z-50">
+      <div className="fixed bottom-6 left-1/2 transform -translate-x-1/2 z-99999">
         <div className="bg-white/40 dark:bg-gray-800/30 backdrop-blur-lg rounded-full shadow-lg shadow-black/5 dark:shadow-white/5 border border-gray-200 dark:border-gray-700/50">
           <nav className="flex items-center p-2">
             {navItems.map((item, index) => {

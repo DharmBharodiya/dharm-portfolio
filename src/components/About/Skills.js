@@ -11,12 +11,12 @@ export const frameworksAndTools = [
   { name: "ExpressJS", color: "#a764d3" },
   { name: "Git", color: "#e94e4e" },
   { name: "GitHub", color: "#5b6168" },
-  { name: "Postgresql", color: "#4b63a8" },
+  { name: "Postgresql", color: "#5174d6" },
   { name: "MongoDB", color: "#4CAF50" }
 ];
 
 export const designTools = [
-  { name: "Photoshop", color: "#2e5fa3" },
+  { name: "Photoshop", color: "#2f6abd" },
   { name: "Illustrator", color: "#FF7F00" },
   { name: "Figma", color: "#0ACF83" },
   { name: "Procreate", color: "#c44fbd" }
