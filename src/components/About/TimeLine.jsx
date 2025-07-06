@@ -3,7 +3,7 @@ function TimeLine({timelineHeading, content}) {
   return (
     <div className="relative mb-10">
       {/* vertical line */}
-      <div className="bg-black dark:bg-white/100 w-px h-full absolute"></div>
+      <div className="bg-black dark:bg-white w-px h-full absolute"></div>
       
       {/* heading */}
       <div className="relative mb-6">
