@@ -1,8 +1,9 @@
 import { ArrowUpRight } from "lucide-react"
 import { useTheme } from "../../ThemeContext"
 import { motion } from "framer-motion"
+import { NavLink } from "react-router-dom"
 
-function ProjectBox({flowerClass, bg, title, description}) {
+function ProjectBox({flowerClass, bg, title, description, src}) {
 
     const {theme} = useTheme()
 
@@ -23,7 +24,9 @@ function ProjectBox({flowerClass, bg, title, description}) {
         </div>
         <div className="cursor-pointer hover:translate-x-2 transition-transform duration-200">
             <h1>
-                <ArrowUpRight/>
+                <NavLink to={src}>
+                    <ArrowUpRight/>
+                </NavLink>
             </h1>
         </div>
         <div className={` ${flowerClass} z-9999 `}>

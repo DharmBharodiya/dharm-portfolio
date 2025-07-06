@@ -32,6 +32,7 @@ function ProjectsPage() {
                 description={project.description}
                 flowerClass={project.flowerClass}
                 bg={project.bg}
+                src={project.src}
                 />
               </motion.div>
             ))
