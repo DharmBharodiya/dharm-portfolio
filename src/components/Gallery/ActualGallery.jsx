@@ -33,6 +33,9 @@ function ActualGallery() {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.5, ease: 'easeOut' }}
         >
+            {/* The `whileInView` prop triggers animations when the element comes into view during scrolling.
+            It works as a scroll trigger, ensuring the animation starts only when the element is visible in the viewport.
+            This is useful for creating dynamic and engaging user experiences as users scroll through the page. */}
             <Instagram />
         </motion.div>
     </div>
