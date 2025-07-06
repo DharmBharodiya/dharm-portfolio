@@ -9,7 +9,7 @@ function Education() {
     <div className="relative">
       <ContentBox
       heading="A D Patel Insitute of Technology, Anand"
-      description="Final year student, purusing B.Tech IT"
+      description="Final year student | Pursuing B.Tech IT | 2022 - 26"
       />
       <motion.img
       src={`${theme === "dark" ? "/images/flowerWhite.png" : "/images/flowerBlack.png"}`}
