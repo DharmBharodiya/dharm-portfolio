@@ -21,11 +21,11 @@ export const projects = [
         src:"https://github.com/DharmBharodiya/OpenCV"
     },
     {
-        title: "took a ride in uber",
-        description: "enjoyed breath-taking cab ride from San Francisco to Las Vegas",
+        title: "a personal portfolio",
+        description: "Designed and developed a portfolio website to showcase projects and skills",
         bg: "bg-[linear-gradient(90deg,_rgba(0,51,51,1)_0%,_rgba(0,128,128,1)_50%,_rgba(57,255,20,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(0,51,51,0.6)_0%,_rgba(0,128,128,0.65)_50%,_rgba(57,255,20,0.70)_100%)] transition-colors duration-200",
         flowerClass: "absolute w-10 h-10 -bottom-4 left-1/2 -translate-x-1/2",
-        src:"#"
+        src:"https://dharm-portfolio-gamma.vercel.app/"
     },
     // {
     //     title: "completed online course",
@@ -54,10 +54,10 @@ export const projects = [
         src:"#"
     },
     {
-        title: "a personal portfolio",
-        description: "Designed and developed a portfolio website to showcase projects and skills",
+        title: "took a ride in uber",
+        description: "enjoyed breath-taking cab ride from San Francisco to Las Vegas",
         bg: "bg-[linear-gradient(90deg,_rgba(0,0,51,1)_0%,_rgba(0,51,102,1)_50%,_rgba(0,102,204,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(0,0,51,0.6)_0%,_rgba(0,51,102,0.65)_50%,_rgba(0,102,204,0.70)_100%)] transition-colors duration-200",
         flowerClass: "absolute w-10 h-10 -bottom-5 right-5",
-        src:"https://dharm-portfolio-gamma.vercel.app/"
+        src:"#"
     },
 ];
