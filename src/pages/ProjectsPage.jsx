@@ -7,14 +7,14 @@ import { projects } from '../components/Projects/Projects'
 
 function ProjectsPage() {
   return (
-    <div className='mt-4'>
+    <div className='mx-6 mt-8'>
         <CustomCursor/>
         
         <div className=''>
           <Header
         heading="Projects"
         description={`This is where ideas got restless, code got colorful, and pixels found a purpose. \nWill update with latest projects soon.`}
-        className={"w-[250px] sm:w-xl mb-10 relative" }
+        className={"w-[300px] sm:w-xl mb-6 relative" }
         />
 
         </div>

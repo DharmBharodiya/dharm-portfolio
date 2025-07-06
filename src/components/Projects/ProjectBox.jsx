@@ -8,16 +8,16 @@ function ProjectBox({flowerClass, bg, title, description}) {
 
   return (
     <div
-    className={`text-white flex relative rounded-xl px-6 py-4 pb-12 ${bg} hover:scale-101 transition-all duration-200 hover:z-9999999`}
+    className={`text-white flex relative rounded-xl px-4 py-2 pb-8 sm:px-6 sm:py-4 sm:pb-12 ${bg} hover:scale-101 transition-all duration-200 hover:z-9999999`}
     >
-        <div className="mr-20">
+        <div className="mr-4 sm:mr-20">
             <h1
-            className="text-2xl"
+            className="text-xl sm:text-2xl"
             style={{fontFamily: "New Valley"}}
             >
                 {title}
             </h1>
-            <p className="text-sm w-2xs sm:w-md">
+            <p className="text-xs sm:text-sm w-2xs sm:w-md">
                 {description}
             </p>
         </div>
