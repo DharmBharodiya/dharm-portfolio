@@ -6,7 +6,7 @@ import { useTheme } from "../../ThemeContext"
 function SkillRepeat() {
   const {theme} = useTheme()
   return (
-    <div className="relative">
+    <div className="relative max-w-150">
         <SubDot items={languages} heading="Languages"/>
         <SubDot items={frameworksAndTools} heading="Frameworks & Tools"/>
         <SubDot items={designTools} heading="Design Tools"/>

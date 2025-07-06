@@ -9,7 +9,7 @@ function SocialsPage() {
 
     const {theme} = useTheme();
     return (
-    <div>
+    <div className='ml-5'>
         <CustomCursor/>
          <motion.img
             src={`${theme === "dark" ? "/images/flowerWhite.png" : "/images/flowerBlack.png"}`}

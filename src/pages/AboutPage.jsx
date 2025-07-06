@@ -8,7 +8,7 @@ import CustomCursor from '../components/CustomCursor'
 
 function AboutPage() {
   return (
-    <div className='w-full flex justify-center items-left sm:items-left sm:ml-20 md:ml-40 lg:ml-100 mt-10 flex-col pl-10 pr-10'> {/* Changed to padding for consistent alignment */}
+    <div className='w-full flex justify-center items-left sm:items-left sm:ml-40 md:ml-30 lg:ml-80 mt-10 flex-col pl-10 pr-10'> {/* Changed to padding for consistent alignment */}
     <CustomCursor/>
          <Header
             heading="About"
