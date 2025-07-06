@@ -9,7 +9,7 @@ import { motion } from 'framer-motion'
 
 function AboutPage() {
   return (
-    <div className='w-full flex justify-center items-center sm:items-center ml-40 mt-10 flex-col pl-10 pr-10'> {/* Changed to padding for consistent alignment */}
+    <div className='w-full flex justify-center items-left sm:items-center ml-10 mt-10 flex-col pl-10 pr-10'> {/* Changed to padding for consistent alignment */}
     <CustomCursor/>
          <Header
             heading="About"
