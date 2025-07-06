@@ -2,6 +2,7 @@ import React from 'react'
 import ImageCard from './ImageCard'
 import images from './images'
 import Instagram from './Instagram'
+import { motion } from 'framer-motion'
 
 function ActualGallery() {
   return (
@@ -13,16 +14,27 @@ function ActualGallery() {
     here substracting 0.5 from random value gives range of -0.5 to 0.5 which helps in randomizing things,
     this comparison of -, 0 and + happends for all the items 
     */}
-        {images.sort(() => Math.random() - 0.5).map((image, idx)=>(
-            <ImageCard
-            src={image}
+        {images.sort(() => Math.random() - 0.5).map((image, idx) => (
+            <motion.div
             key={idx}
-            alt={image}
-            // description={image.description}
-            />
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, ease: 'easeOut' }}
+            >
+                <ImageCard
+                src={image}
+                alt={image}
+                />
+            </motion.div>
         ))}
 
-        <Instagram/>
+        <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.5, ease: 'easeOut' }}
+        >
+            <Instagram />
+        </motion.div>
     </div>
   )
 }

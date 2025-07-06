@@ -25,29 +25,41 @@ function SocialsPage() {
       />
         <Header
             heading="Socials"
-            description="Connect with dharm on several internet penthouses that he owns, you could connect or drop a follow for a drink :)🍹"
+            description={`Connect with dharm on several internet penthouses that he owns, \nyou could connect or drop a follow for a drink :)🍹`}
             className={"w-[250px] sm:w-2xl mb-10 relative" } /* Removed margin-left */
          />
-        <Links/>
-        <div className='dark:text-white text-2xl text-black leading-6 mt-6'>
-            <h1>Email me at <span className='relative group text-red-400 cursor-pointer font-medium'>
-                mail.
-                <span className='absolute text-sm bg-green-600 text-[#fff] rounded-md px-2 py-1 -left-20 -top-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
-                    dharmbharodiya@gmail.com
-                </span>
-                </span>
+        <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
+        >
+            <Links/>
+        </motion.div>
+        <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: "easeOut", delay: 0.4 }}
+        >
+            <div className='dark:text-white text-2xl text-black leading-6 mt-6'>
+                <h1>Email me at <span className='relative group text-red-400 cursor-pointer font-medium'>
+                    mail.
+                    <span className='absolute text-sm bg-green-600 text-[#fff] rounded-md px-2 py-1 -left-20 -top-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
+                        dharmbharodiya@gmail.com
+                    </span>
+                    </span>
+                    </h1>
+                <h1>Much Love,</h1>
+                <h1 className='font-bold w-fit'>
+                    <span className='relative group'>Dharm
+                    <span className='absolute -bottom-12 left-0 opacity-0 group-hover:opacity-100 cursor-pointer transition-opacity duration-200'>
+                        <div className='flex'>
+                            <img src="images/kiss.png" alt="kisses" className='w-15 h-15'/>
+                        </div>
+                    </span>
+                    </span>
                 </h1>
-            <h1>Much Love,</h1>
-            <h1 className='font-bold w-fit'>
-                <span className='relative group'>Dharm
-                <span className='absolute -bottom-12 left-0 opacity-0 group-hover:opacity-100 cursor-pointer transition-opacity duration-200'>
-                    <div className='flex'>
-                        <img src="images/kiss.png" alt="kisses" className='w-15 h-15'/>
-                    </div>
-                </span>
-                </span>
-            </h1>
-        </div>
+            </div>
+        </motion.div>
         <FloatingDock/>
     </div>
   )

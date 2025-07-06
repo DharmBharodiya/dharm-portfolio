@@ -10,7 +10,7 @@ function GalleryPage() {
 
     const {theme} = useTheme()
   return (
-    <div className="mt-4">
+    <div className="mt-8">
         <CustomCursor/>
         <motion.img
             src={`${theme === "dark" ? "/images/flowerWhite.png" : "/images/flowerBlack.png"}`}
@@ -26,7 +26,7 @@ function GalleryPage() {
       />
         <Header
         heading="Gallery"
-        description="This is what dharm makes and clicks. Some colors, some stills, putting context in every moment."
+        description={`This is what dharm makes and clicks. \n Some colors, some stills, putting context in every moment.`}
         className={"w-[250px] sm:w-xl mb-10 relative" }
         />
 

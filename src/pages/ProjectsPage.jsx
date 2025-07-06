@@ -13,7 +13,7 @@ function ProjectsPage() {
         <div className=''>
           <Header
         heading="Projects"
-        description="This is where ideas got restless, code got colorful, and pixels found a purpose. Will update with latest projects soon."
+        description={`This is where ideas got restless, code got colorful, and pixels found a purpose. \nWill update with latest projects soon.`}
         className={"w-[250px] sm:w-xl mb-10 relative" }
         />
 
@@ -21,13 +21,19 @@ function ProjectsPage() {
         <div className='flex flex-col gap-2'>
           {
             projects.map((project, idx) => (
-              <ProjectBox
-              title={project.title}
-              description={project.description}
-              flowerClass={project.flowerClass}
-              bg={project.bg}
+              <motion.div
               key={idx}
-              />
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, ease: "easeOut", delay: idx * 0.1 }}
+              >
+                <ProjectBox
+                title={project.title}
+                description={project.description}
+                flowerClass={project.flowerClass}
+                bg={project.bg}
+                />
+              </motion.div>
             ))
           }
 

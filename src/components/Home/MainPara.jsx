@@ -17,7 +17,8 @@ function MainPara() {
     }),
   };
 
- 
+  const images = ["images/dhrm1.png", "images/dhrm2.png", "images/dhrm3.png"];
+  const randomImage = images[Math.floor(Math.random() * images.length)];
 
   return (
     <div className='flex justify-center flex-col items-center selection:bg-green-500 selection:text-black transition-colors duration-300'>
@@ -37,16 +38,28 @@ function MainPara() {
                 ))}
                 <ThemeBtn/>
               </h1>
-              <p className='text-gray-800 dark:text-white text-[18px] mt-0 text-left selection:bg-pink-500 transition-colors duration-300'>Pixels. Purpose. Possibility.</p>
-              <p className='text-gray-600 dark:text-[#bbbbbb] text-[16px] max-w-xs leading-5 text-center sm:text-left transition-colors duration-300'>i  turn thoughts into threads of code and color—crafting digital spaces where design breathes, interaction dances, and ideas come alive.</p>
+              <motion.p 
+              initial={{opacity: 0, y:20}}
+              animate={{opacity: 1, y:0}}
+              transition={{delay: 0.2}}
+              className='text-gray-800 dark:text-white text-[18px] mt-0 text-left selection:bg-pink-500 transition-colors duration-300'>Pixels. Purpose. Possibility.</motion.p>
+              <motion.p
+              initial={{opacity: 0, y:20}}
+              animate={{opacity: 1, y:0}}
+              transition={{delay: 0.3}}
+              className='text-gray-600 dark:text-[#bbbbbb] text-[16px] max-w-xs leading-5 text-center sm:text-left transition-colors duration-300'>i  turn thoughts into threads of code and color—crafting digital spaces where design breathes, interaction dances, and ideas come alive.</motion.p>
             </div>
             <div className='flex-1 flex justify-center sm:mb-0'>
-              <img src="images/dhrm1.png" alt="dhrmcharacter" className='w-[165px] h-[165px] sm:w-[200px] sm:h-[200px]' />
+              <img src={randomImage} alt="dhrmcharacter" className='w-[165px] h-[165px] sm:w-[200px] sm:h-[200px]' />
             </div>
             {/* <ArrowUpRight size={46} color='white'/> */}
         </div>
         
-        <div className='grid grid-cols-6 w-full p-4 gap-2 sm:w-[700px]'>
+        <motion.div 
+    initial={{opacity: 0, y:20}}
+    animate={{opacity: 1, y:0}}
+    transition={{duration: 0.2, delay: 0.3}}
+        className='grid grid-cols-6 w-full p-4 gap-2 sm:w-[700px]'>
             <BentoBox
             className='bg-[linear-gradient(90deg,_rgba(2,0,36,1)_0%,_rgba(9,9,121,1)_50%,_rgba(0,212,255,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(2,0,36,0.65)_0%,_rgba(9,9,121,0.60)_50%,_rgba(0,212,255,0.70)_100%)] transition-colors duration-200'
             width="col-span-6 sm:col-span-2"
@@ -86,7 +99,7 @@ function MainPara() {
             flowerClass2="block w-10 h-10 -top-6 left-2 absolute sm:hidden"
             thePath="/socials"
             />
-        </div>
+        </motion.div>
     </div>
   );
 }
