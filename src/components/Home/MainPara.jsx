@@ -2,6 +2,7 @@ import BentoBox from './BentoBox';
 import ThemeBtn from './ThemeBtn';
 // import { ArrowUpRight } from 'lucide-react';
 import { motion } from 'framer-motion';
+import React from 'react';
 
 function MainPara() {
   const text = "Dharm";
@@ -17,7 +18,15 @@ function MainPara() {
     }),
   };
 
-  const images = ["images/dhrm1.png", "images/dhrm2.png", "images/dhrm3.png"];
+  const images = React.useMemo(() => ["images/dhrm1.png", "images/dhrm2.png", "images/dhrm3.png"], []);
+
+  React.useEffect(() => {
+    images.forEach((image) => {
+      const img = new Image();
+      img.src = image;
+    });
+  }, [images]);
+
   const randomImage = images[Math.floor(Math.random() * images.length)];
 
   return (
@@ -105,3 +114,8 @@ function MainPara() {
 }
 
 export default MainPara;
+
+/* To address the loading delay for the random image:
+     1. We used the `useMemo` hook to create the `images` array. This ensures the array is only initialized once and does not change unnecessarily during re-renders.
+     2. We used the `useEffect` hook to preload all images in the `images` array. Preloading means creating an `Image` object for each image and setting its `src` property. This caches the images in the browser, so they load instantly when displayed.
+     3. The `randomImage` variable selects a random image from the preloaded `images` array using `Math.random`. */
