@@ -1,9 +1,24 @@
 import { ArrowUpRightIcon, Globe2Icon, CameraIcon, Brush } from "lucide-react"
 import { NavLink } from "react-router-dom"
+import { motion } from "framer-motion"
+import { useTheme } from "../../ThemeContext"
 
 function Instagram() {
+    const {theme} = useTheme()
   return (
-    <div className="text-white p-6 bg-amber-300 rounded-md">
+    <div className="text-white p-6 bg-[#000] rounded-md relative">
+        <motion.img
+            src={`${theme === "dark" ? "/images/flowerWhite.png" : "/images/flowerBordered.png"}`}
+            alt="flowerwhite"
+            className="absolute w-12 h-12 top-1/2 -translate-y-1/2 right-1/2 translate-x-30 sm:w-10 sm:h-10  sm:ml-58"
+            animate={{ rotate: 360 }}
+            initial={{ rotate: 0 }}
+            transition={{
+                repeat: Infinity,
+                ease: 'linear',
+                duration: 8, // 10 seconds for a moderate spin speed
+                repeatType: 'loop',}}
+      />
         <h1 className="text-2xl font-medium mb-3">check out more on</h1>
         <div className="flex">
             <div className="flex pr-6 group">
