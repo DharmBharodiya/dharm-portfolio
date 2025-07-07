@@ -42,7 +42,7 @@ function SocialsPage() {
         >
             <div className='dark:text-white text-2xl text-black leading-6 mt-6'>
                 <h1>Email me at <span className='relative group text-red-400 cursor-pointer font-medium'>
-                    mail.
+                    <a href="mailto:dharmbharodiya@gmail.com">mail.</a>
                     <span className='absolute text-sm bg-green-600 text-[#fff] rounded-md px-2 py-1 -left-20 -top-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
                         dharmbharodiya@gmail.com
                     </span>
