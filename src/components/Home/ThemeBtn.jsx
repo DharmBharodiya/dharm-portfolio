@@ -8,7 +8,7 @@ function ThemeBtn() {
   
   return (
     <div
-    className='inline-block absolute -top-2'>
+    className='inline-block absolute bottom-2 sm:-top-2'>
         <motion.button
           initial={{y: '-80%', opacity: 0}}
           animate={{y: 0, opacity: 1}}
