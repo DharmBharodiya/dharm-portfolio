@@ -9,7 +9,7 @@ function BentoBox({className = "", width, heading, description, flowerClass, flo
 
   return (
     <div
-    className={`${width} ${className} cursor-pointer relative h-25 sm:h-35 sm:h-40 rounded-2xl p-4 hover:scale-100 hover:z-10000 transition duration-75 pb-2`}>
+    className={`${width} ${className} cursor-pointer relative h-35 sm:h-40 rounded-2xl p-4 hover:scale-100 hover:z-10000 transition duration-75`}>
         <Link to={thePath}>
           <h1
           className={`text-white text-2xl sm:text-3xl font-bold group font-space-grotesk`}>
