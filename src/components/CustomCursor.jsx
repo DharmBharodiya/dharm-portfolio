@@ -14,6 +14,7 @@ function CustomCursor() {
         return () => window.removeEventListener("mousemove", move)
     }, [])
 
+    //to not show cursor in screens that dont have access to mouse
     useEffect(() => {
         const checkInputType = () => {
             const isMouse = window.matchMedia('(pointer: fine)').matches;

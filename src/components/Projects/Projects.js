@@ -1,14 +1,14 @@
 export const projects = [
     {
         title: "GREP - Smart GRE Tutor",
-        description: "personalized tool that leverages AI to help with GRE preparation",
+        description: "Personalized tool that leverages AI to help with GRE preparation",
         bg: "bg-[linear-gradient(90deg,_rgba(2,0,36,1)_0%,_rgba(9,9,121,1)_50%,_rgba(0,212,255,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(2,0,36,0.65)_0%,_rgba(9,9,121,0.60)_50%,_rgba(0,212,255,0.70)_100%)] transition-colors duration-200",
         flowerClass: "absolute w-8 h-8 -top-5 right-10",
         src: "https://grep-rho.vercel.app/"
     },
     {
         title: "Math Riot",
-        description: "a small little math game to strengthen basic arithmetic.",
+        description: "A small little math game to strengthen basic arithmetic.",
         bg: "bg-[linear-gradient(90deg,_rgba(26,0,51,1)_0%,_rgba(76,29,149,1)_50%,_rgba(255,0,150,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(26,0,51,0.6)_0%,_rgba(76,29,149,0.65)_50%,_rgba(255,0,150,0.90)_100%)] transition-colors duration-200",
         flowerClass: "absolute w-14 h-14 -bottom-6 right-10 ",
         src: "https://github.com/DharmBharodiya/math-riot"
@@ -21,7 +21,7 @@ export const projects = [
         src:"https://github.com/DharmBharodiya/OpenCV"
     },
     {
-        title: "a personal portfolio",
+        title: "A personal portfolio",
         description: "Designed and developed a portfolio website to showcase projects and skills",
         bg: "bg-[linear-gradient(90deg,_rgba(0,51,51,1)_0%,_rgba(0,128,128,1)_50%,_rgba(57,255,20,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(0,51,51,0.6)_0%,_rgba(0,128,128,0.65)_50%,_rgba(57,255,20,0.70)_100%)] transition-colors duration-200",
         flowerClass: "absolute w-10 h-10 -bottom-4 left-1/2 -translate-x-1/2",
@@ -34,11 +34,11 @@ export const projects = [
     //     flowerClass: "absolute w-10 h-10 -bottom-5 left-5",
     // },
     {
-        title: "explored Spotify playlists",
-        description: "Discovered 50 new songs across 10 genres",
+        title: "Misson Management App",
+        description: "Learnt & built this during my time at tatvasoft.",
         bg: "bg-[linear-gradient(90deg,_rgba(51,0,51,1)_0%,_rgba(128,0,128,1)_50%,_rgba(255,0,255,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(51,0,51,0.6)_0%,_rgba(128,0,128,0.65)_50%,_rgba(255,0,255,0.70)_100%)] transition-colors duration-200",
         flowerClass: "absolute w-12 h-12 -bottom-6 right-10",
-        src:"#"
+        src:"https://github.com/DharmBharodiya/Mission-App"
     },
     // {
     //     title: "completed coding challenge",
@@ -47,14 +47,14 @@ export const projects = [
     //     flowerClass: "absolute w-6 h-6 -bottom-2 left-20 -translate-x-1/2"
     // },
     {
-        title: "insta scroll benchmarking",
+        title: "Insta scroll benchmarking",
         description: "Tested thumb fatigue limits across 3 time zones.",
         bg: "bg-[linear-gradient(90deg,_rgba(0,51,0,1)_0%,_rgba(0,128,0,1)_50%,_rgba(0,255,0,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(0,51,0,0.6)_0%,_rgba(0,128,0,0.65)_50%,_rgba(0,255,0,0.70)_100%)] transition-colors duration-200",
         flowerClass: "absolute w-14 h-14 -bottom-8 right-1/4",
         src:"#"
     },
     {
-        title: "took a ride in uber",
+        title: "Took a ride in uber",
         description: "enjoyed breath-taking cab ride from San Francisco to Las Vegas",
         bg: "bg-[linear-gradient(90deg,_rgba(0,0,51,1)_0%,_rgba(0,51,102,1)_50%,_rgba(0,102,204,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(0,0,51,0.6)_0%,_rgba(0,51,102,0.65)_50%,_rgba(0,102,204,0.70)_100%)] transition-colors duration-200",
         flowerClass: "absolute w-10 h-10 -bottom-5 right-5",

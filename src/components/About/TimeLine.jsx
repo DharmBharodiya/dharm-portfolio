@@ -7,7 +7,7 @@ function TimeLine({timelineHeading, content}) {
       
       {/* heading */}
       <div className="relative mb-6">
-        <div className="w-2.5 h-2.5 sm:w-4 sm:h-4 bg-black dark:bg-white rounded-full -translate-x-1/2"></div>
+        <div className="w-4 h-4 bg-black dark:bg-white rounded-full -translate-x-1/2"></div>
         <h1 className="absolute top-0 ml-4 text-2xl sm:text-3xl leading-6  text-black dark:text-white" style={{ fontFamily: 'New Valley, sans-serif'}}>{timelineHeading}</h1>
       </div>
 

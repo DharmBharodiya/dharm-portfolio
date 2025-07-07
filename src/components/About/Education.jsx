@@ -8,8 +8,8 @@ function Education() {
   return (
     <div className="relative">
       <ContentBox
-      heading="A D Patel Insitute of Technology, Anand"
-      description="Final year student | Pursuing B.Tech IT | 2022 - 26"
+      heading="CVM University (ADIT), Anand"
+      description="2022 - 26 | Final year student | Pursuing B.Tech"
       />
       <motion.img
       src={`${theme === "dark" ? "/images/flowerWhite.png" : "/images/flowerBlack.png"}`}

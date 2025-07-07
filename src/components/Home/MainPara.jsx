@@ -51,7 +51,7 @@ function MainPara() {
               initial={{opacity: 0, y:20}}
               animate={{opacity: 1, y:0}}
               transition={{delay: 0.2}}
-              className='text-gray-800 dark:text-white text-[18px] mt-0 text-left selection:bg-pink-500 transition-colors duration-300'>Pixels. Purpose. Possibility.</motion.p>
+              className='text-gray-800 dark:text-white text-[18px] mt-0 text-left selection:bg-pink-500 transition-colors duration-300'>20 y/o | dev. x designer.</motion.p>
               <motion.p
               initial={{opacity: 0, y:20}}
               animate={{opacity: 1, y:0}}

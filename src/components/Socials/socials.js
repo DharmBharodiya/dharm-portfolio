@@ -1,4 +1,4 @@
-import {Twitter, GithubIcon, LinkedinIcon, YoutubeIcon, InstagramIcon } from "lucide-react";
+import {Twitter, GithubIcon, LinkedinIcon, YoutubeIcon, InstagramIcon, MousePointer2, MousePointer } from "lucide-react";
 
 export const socials = [
     {
@@ -24,5 +24,10 @@ export const socials = [
         title: "videos n stuff",
         icon: YoutubeIcon,
         link: "https://www.youtube.com/@dh4rmbharodiya"
+    },
+    {
+        title: "behance",
+        icon: MousePointer,
+        link: "https://www.behance.net/dharmbharodiya"
     }
 ]
