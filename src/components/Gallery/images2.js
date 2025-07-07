@@ -1,214 +1,214 @@
 const images = [
   {
-    src: "images/img1.jpg",
+    src: "images/img1.webp",
     description: "Sanam Band Concert",
   },
   {
-    src: "images/img2.jpeg",
+    src: "images/img2.webp",
     description: "Statue of Unity",
   },
   {
-    src: "images/img3.jpg",
+    src: "images/img3.webp",
     description: "Sanam Band Concert",
   },
   {
-    src: "images/img4.jpeg",
+    src: "images/img4.webp",
     description: "Statue of Unity Zoo",
   },
   {
-    src: "images/img5.jpg",
+    src: "images/img5.webp",
     description: "Street Photography",
   },
   {
-    src: "images/img6.jpg",
+    src: "images/img6.webp",
     description: "Street Photography",
   },
   {
-    src: "images/img7.jpg",
+    src: "images/img7.webp",
     description: "Sanam Band Concert",
   },
   {
-    src: "images/img8.jpg",
+    src: "images/img8.webp",
     description: "Nature Photography",
   },
   {
-    src: "images/img9.jpeg",
+    src: "images/img9.webp",
     description: "SoU Zoo",
   },
   {
-    src: "images/img10.jpg",
+    src: "images/img10.webp",
     description: "Sanam Band Concert",
   },
   {
-    src: "images/img11.jpg",
+    src: "images/img11.webp",
     description: "Street Photography",
   },
   {
-    src: "images/img12.jpg",
+    src: "images/img12.webp",
     description: "Street Photography",
   },
   {
-    src: "images/img13.jpg",
+    src: "images/img13.webp",
     description: "Interior Aesthetics",
   },
   {
-    src: "images/img14.jpg",
+    src: "images/img14.webp",
     description: "Pencil Sketch",
   },
   {
-    src: "images/img15.jpg",
+    src: "images/img15.webp",
     description: "Coldplay Concert",
   },
   {
-    src: "images/img16.jpg",
+    src: "images/img16.webp",
     description: "Leaf Girl Painting",
   },
   {
-    src: "images/img17.jpg",
+    src: "images/img17.webp",
     description: "Pen Sketch",
   },
   {
-    src: "images/img18.jpg",
+    src: "images/img18.webp",
     description: "Concert Photography",
   },
   {
-    src: "images/img19.jpg",
+    src: "images/img19.webp",
     description: "Digital Painting",
   },
   {
-    src: "images/img20.jpg",
+    src: "images/img20.webp",
     description: "Coldplay Concert",
   },
   {
-    src: "images/img21.jpg",
+    src: "images/img21.webp",
     description: "Coldplay Concert",
   },
   {
-    src: "images/img22.jpg",
+    src: "images/img22.webp",
     description: "Street Photography",
   },
   {
-    src: "images/img23.jpg",
+    src: "images/img23.webp",
     description: "Nature Photography",
   },
   {
-    src: "images/img24.jpg",
+    src: "images/img24.webp",
     description: "Rain Aesthetics",
   },
   {
-    src: "images/img25.jpg",
+    src: "images/img25.webp",
     description: "Rain Aesthetics",
   },
   {
-    src: "images/img26.jpg",
+    src: "images/img26.webp",
     description: "Digital Painting",
   },
   {
-    src: "images/img27.jpg",
+    src: "images/img27.webp",
     description: "Pencil Sketch",
   },
   {
-    src: "images/img28.jpg",
+    src: "images/img28.webp",
     description: "Rain Aesthetics",
   },
   {
-    src: "images/img29.jpg",
+    src: "images/img29.webp",
     description: "Street Photography",
   },
   {
-    src: "images/img30.jpg",
+    src: "images/img30.webp",
     description: "Nature Photography",
   },
   {
-    src: "images/img31.jpg",
+    src: "images/img31.webp",
     description: "Digital Painting",
   },
   {
-    src: "images/img32.jpg",
+    src: "images/img32.webp",
     description: "Rain Aesthetics",
   },
   {
-    src: "images/img33.jpg",
+    src: "images/img33.webp",
     description: "Street Photography",
   },
   {
-    src: "images/img34.jpg",
+    src: "images/img34.webp",
     description: "Pencil Sketch",
   },
   {
-    src: "images/img35.jpg",
+    src: "images/img35.webp",
     description: "Nature Photography",
   },
   {
-    src: "images/img36.jpg",
+    src: "images/img36.webp",
     description: "Shots from Video",
   },
   {
-    src: "images/img37.jpg",
+    src: "images/img37.webp",
     description: "Watercolor Painting",
   },
   {
-    src: "images/img38.jpg",
+    src: "images/img38.webp",
     description: "Pencil Sketch",
   },
   {
-    src: "images/img39.jpg",
+    src: "images/img39.webp",
     description: "Pencil Sketch",
   },
   {
-    src: "images/img40.jpg",
+    src: "images/img40.webp",
     description: "Digital Painting",
   },
   {
-    src: "images/img41.jpg",
+    src: "images/img41.webp",
     description: "Skies to die for",
   },
   {
-    src: "images/img42.jpeg",
+    src: "images/img42.webp",
     description: "Skies to die for",
   },
   {
-    src: "images/img43.jpg",
+    src: "images/img43.webp",
     description: "Pencil Sketch",
   },
   {
-    src: "images/img44.jpg",
+    src: "images/img44.webp",
     description: "Pen Sketch",
   },
   {
-    src: "images/img45.jpg",
+    src: "images/img45.webp",
     description: "Nature Photography",
   },
   {
-    src: "images/img46.jpg",
+    src: "images/img46.webp",
     description: "Street Photography",
   },
   {
-    src: "images/img47.jpg",
+    src: "images/img47.webp",
     description: "Digital Painting",
   },
   {
-    src: "images/img48.jpg",
+    src: "images/img48.webp",
     description: "Rain Aesthetics",
   },
   {
-    src: "images/img49.jpg",
+    src: "images/img49.webp",
     description: "Rain Aesthetics",
   },
   {
-    src: "images/img50.jpg",
+    src: "images/img50.webp",
     description: "Pen Sketch",
   },
   {
-    src: "images/img51.jpg",
+    src: "images/img51.webp",
     description: "Acrylic Painting",
   },
   {
-    src: "images/img52.jpg",
+    src: "images/img52.webp",
     description: "Street Photography",
   },
   {
-    src: "images/img53.jpg",
+    src: "images/img53.webp",
     description: "Street Photography",
   },
   {
@@ -216,59 +216,59 @@ const images = [
     description: "Street Photography",
   },
   {
-    src: "images/img55.jpg",
+    src: "images/img55.webp",
     description: "Pencil Sketch",
   },
   {
-    src: "images/img56.jpg",
+    src: "images/img56.webp",
     description: "Digital Painting",
   },
   {
-    src: "images/img57.jpg",
-    description: "Digital Illustration"
-  },
-  {
-    src: "images/img58.jpg",
-    description: "Digital Painting",
-  },
-  {
-    src: "images/img59.jpg",
+    src: "images/img57.webp",
     description: "Digital Illustration",
   },
   {
-    src: "images/img60.jpg",
+    src: "images/img58.webp",
     description: "Digital Painting",
   },
   {
-    src: "images/img61.jpg",
+    src: "images/img59.webp",
+    description: "Digital Illustration",
+  },
+  {
+    src: "images/img60.webp",
     description: "Digital Painting",
   },
   {
-    src: "images/img62.jpg",
+    src: "images/img61.webp",
+    description: "Digital Painting",
+  },
+  {
+    src: "images/img62.webp",
     description: "Digital Painting ~ skies to die for",
   },
   {
-    src: "images/img63.jpg",
+    src: "images/img63.webp",
     description: "Digital Painting",
   },
   {
-    src: "images/img64.png",
+    src: "images/img64.webp",
     description: "Digital Illustration",
   },
   {
-    src: "images/img65.JPG",
+    src: "images/img65.webp",
     description: "Street Photography",
   },
   {
-    src: "images/img66.jpg",
+    src: "images/img66.webp",
     description: "Street Photography",
   },
   {
-    src: "images/img67.jpg",
+    src: "images/img67.webp",
     description: "Photography",
   },
   {
-    src: "images/img68.jpg",
+    src: "images/img68.webp",
     description: "Street Photography",
   },
 ];

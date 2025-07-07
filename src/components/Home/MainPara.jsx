@@ -1,3 +1,4 @@
+import Footer from '../Footer';
 import BentoBox from './BentoBox';
 import ThemeBtn from './ThemeBtn';
 // import { ArrowUpRight } from 'lucide-react';
@@ -33,7 +34,7 @@ function MainPara() {
     <div className='flex justify-center flex-col items-center selection:bg-green-500 selection:text-black transition-colors duration-300'>
         <div className='flex flex-col-reverse sm:flex-row justify-center items-center mb-10 w-full'>
             <div className='flex-1 flex flex-col justify-center items-center sm:items-start sm:ml-10'>
-              <h1 className='dark:text-white font-geist font-extrabold text-[60px] sm:text-[70px] mb-0 text-left transition-colors duration-300'>
+              <h1 className='dark:text-white relative font-geist font-extrabold text-[60px] sm:text-[70px] mb-0 text-left transition-colors duration-300'>
                 {text.split('').map((char, index) => (
                   <motion.span
                     key={index}
@@ -104,8 +105,8 @@ function MainPara() {
             heading="Socials"
             description="where can you find me?"
             width="col-span-6 sm:col-span-2"
-            flowerClass="absolute left-65 top-27 w-10 h-10 sm:-left-8 sm:top-30 sm:w-13 sm:h-13"
-            flowerClass2="block w-10 h-10 -top-6 left-2 absolute sm:hidden"
+            flowerClass="absolute left-65 top-20 w-10 h-10 sm:-left-8 sm:top-30 sm:w-13 sm:h-13"
+            flowerClass2="block w-6 h-6 -top-3 left-2 absolute sm:hidden"
             thePath="/socials"
             />
         </motion.div>
