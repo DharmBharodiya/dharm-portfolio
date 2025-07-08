@@ -18,7 +18,20 @@ function MainPara() {
     }),
   };
 
-  const images = React.useMemo(() => ["images/dhrm1.png", "images/dhrm2.png", "images/dhrm3.png"], []);
+  const images = React.useMemo(() => [
+    "images/dhrm1.png",
+    "images/dhrm2.png",
+    "images/dhrm3.png",
+    "images/dhrm4.png",
+    "images/dhrm5.png",
+    "images/dhrm6.png",
+    "images/dhrm7.png",
+    "images/dhrm8.png",
+    "images/dhrm9.png",
+    "images/dhrm10.png",
+    "images/dhrm11.png",
+    "images/dhrm12.png",
+  ], []);
 
   React.useEffect(() => {
     images.forEach((image) => {
