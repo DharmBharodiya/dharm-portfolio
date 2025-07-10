@@ -26,7 +26,7 @@ function GalleryPage() {
       />
         <Header
         heading="Gallery"
-        description={`This is what dharm paints and clicks. \n Some colors, some stills, putting context in every moment.`}
+        description={`the world through the lens and colors of dharm.`}
         className={"w-[250px] sm:w-xl mb-10 relative" }
         />
 
