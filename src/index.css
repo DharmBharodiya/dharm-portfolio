@@ -12,3 +12,28 @@
     font-family: 'Geist', 'Space Grotesk', Arial, sans-serif; /* Reverted to original global font-family */
   }
 }
+
+.shimmer-text {
+  background: linear-gradient(
+    90deg,
+    #1f2937 0%,
+    #1f2937 30%,
+    #fff 50%,
+    #1f2937 70%,
+    #1f2937 100%
+  );
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: shimmer-move 1.8s infinite linear;
+}
+
+@keyframes shimmer-move {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
