@@ -22,11 +22,9 @@ function MainPara() {
     "images/dhrm1.png",
     "images/dhrm2.png",
     "images/dhrm3.png",
-    "images/dhrm4.png",
     "images/dhrm5.png",
     "images/dhrm6.png",
     "images/dhrm7.png",
-    "images/dhrm9.png",
     "images/dhrm10.png",
     "images/dhrm11.png",
     "images/dhrm12.png",
@@ -64,7 +62,7 @@ function MainPara() {
               initial={{opacity: 0, y:20}}
               animate={{opacity: 1, y:0}}
               transition={{delay: 0.2}}
-              className='shimmer-text text-gray-800 dark:text-white text-[18px] mt-0 text-left selection:bg-pink-500 transition-colors duration-300'
+              className='shimmer-text text-gray-800 font-bold dark:text-white text-[18px] mt-0 text-left selection:bg-pink-500 transition-colors duration-300'
               >20 y/o | dev. x designer.</motion.p>
               <motion.p
               initial={{opacity: 0, y:20}}
