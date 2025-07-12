@@ -44,6 +44,37 @@
   color: transparent;
   animation: shimmer-move 1.8s infinite linear;
 }
+.shimmer-text2 {
+  background: linear-gradient(
+    90deg,
+    #C7D66D 0%,
+    #D1345B 20%,
+    #3454D1 50%,
+    #D1345B 90%,
+    #C7D66D 100%
+  );
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: shimmer-move 1.2s infinite linear;
+}
+
+.shimmer-text3 {
+  background: linear-gradient(
+    90deg,
+    #1f2937 0%,
+    #1f2937 30%,
+    #fff 50%,
+    #1f2937 70%,
+    #1f2937 100%
+  );
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: shimmer-move 1.8s infinite linear;
+}
 
 @keyframes shimmer-move {
   0% {

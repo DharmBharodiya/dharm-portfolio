@@ -25,7 +25,7 @@ function SocialsPage() {
       />
         <Header
             heading="Socials"
-            description={`Connect with dharm on several internet penthouses that he owns, \nyou could connect or drop a follow for a drink :)🍹`}
+            description={`find me lurking on these socials — hit me up, let's be internet friends 🌐💫`}
             className={"w-[250px] sm:w-2xl mb-10 relative" } /* Removed margin-left */
          />
         <motion.div
@@ -42,7 +42,7 @@ function SocialsPage() {
         >
             <div className='dark:text-white text-2xl text-black leading-6 mt-6'>
                 <h1>Email me at <span className='relative group text-red-400 cursor-pointer font-medium'>
-                    <a href="mailto:dharmbharodiya@gmail.com">mail.</a>
+                    <a href="mailto:dharmbharodiya@gmail.com" className='shimmer-text2'>mail.</a>
                     <span className='absolute text-sm bg-green-600 text-[#fff] rounded-md px-2 py-1 -left-20 -top-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
                         dharmbharodiya@gmail.com
                     </span>

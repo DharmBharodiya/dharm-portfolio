@@ -51,7 +51,7 @@ function MainPara() {
                     initial="hidden"
                     animate="visible"
                     variants={textVariants}
-                    className="sm:hover:font-black transition-all duration-150 sm:hover:cursor-pointer"
+                    className="font-black sm:font-light sm:hover:font-black sm:transition-all sm:duration-150 sm:hover:cursor-pointer"
                   >
                     {char}
                   </motion.span>
