@@ -32,11 +32,11 @@
 .shimmer-text {
   background: linear-gradient(
     90deg,
-    #fff 0%,
-    #fff 20%,
-    #1f2937 50%,
-    #fff 90%,
-    #fff 100%
+    #C7D66D 0%,
+    #D1345B 20%,
+    #3454D1 50%,
+    #D1345B 90%,
+    #C7D66D 100%
   );
   background-size: 200% 100%;
   background-clip: text;

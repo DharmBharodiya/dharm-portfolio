@@ -42,10 +42,10 @@ function MainPara() {
   const randomImage = images[Math.floor(Math.random() * images.length)];
 
   return (
-    <div className='flex justify-center flex-col items-center selection:bg-green-500 selection:text-black transition-colors duration-300'>
+    <div className='flex justify-center flex-col items-center selection:bg-green-500 selection:text-black transition-colors duration-300 mt-3'>
         <div className='flex flex-col-reverse sm:flex-row justify-center items-center mb-2 w-full'>
             <div className='flex-1 flex flex-col justify-center items-center sm:items-start sm:ml-10'>
-              <h1 className='dark:text-white relative font-geist font-light text-[60px] sm:text-[70px] mb-0 text-left transition-all duration-300'>
+              <h1 className='dark:text-white relative font-geist font-black sm:!font-light text-[60px] sm:text-[70px] mb-0 text-left transition-all duration-300'>
                 {text.split('').map((char, index) => (
                   <motion.span
                     key={index}
@@ -53,7 +53,7 @@ function MainPara() {
                     initial="hidden"
                     animate="visible"
                     variants={textVariants}
-                    className="hover:font-black transition-all duration-150 hover:cursor-pointer"
+                    className="sm:hover:font-black transition-all duration-150 sm:hover:cursor-pointer"
                   >
                     {char}
                   </motion.span>
@@ -123,6 +123,10 @@ function MainPara() {
             thePath="/socials"
             />
         </motion.div>
+
+        {/* <div>
+          <p className='text-white shimmer-text'>&copy; 2025 dhrm.tech</p>
+        </div> */}
     </div>
   );
 }
