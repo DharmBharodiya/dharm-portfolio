@@ -5,7 +5,6 @@ import SocialsPage from './pages/SocialsPage'
 import GalleryPage from './pages/GalleryPage'
 import PageNotFound from './pages/PageNotFound'
 import ProjectsPage from './pages/ProjectsPage'
-import { Analytics } from "@vercel/analytics/next"
 
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
     //   <p className='mt-4 text-lg font-space-grotesk font-light'>Welcome to my portfolio!</p>
     // </div>
   <div className='w-full min-h-screen flex justify-center items-center bg-white dark:bg-[#000] transition-colors duration-300'>
-    <Analytics/>
     <Routes>
       <Route path="/" element={<HomePage/>} />
       <Route path="/about" element={<AboutPage/>} />
