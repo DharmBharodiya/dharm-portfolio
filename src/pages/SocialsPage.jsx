@@ -31,14 +31,14 @@ function SocialsPage() {
         <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
+        transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
         >
             <Links/>
         </motion.div>
         <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6, ease: "easeOut", delay: 0.4 }}
+        transition={{ duration: 0.6, ease: "easeOut", delay: 1 }}
         >
             <div className='dark:text-white text-2xl text-black leading-6 mt-6'>
                 <h1>Email me at <span className='relative group text-red-400 cursor-pointer font-medium'>
