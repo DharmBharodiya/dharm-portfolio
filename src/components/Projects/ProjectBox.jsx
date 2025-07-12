@@ -13,8 +13,8 @@ function ProjectBox({flowerClass, bg, title, description, src}) {
     >
         <div className="mr-4 sm:mr-20">
             <h1
-            className="text-xl sm:text-2xl"
-            style={{fontFamily: "New Valley"}}
+            className="text-xl sm:text-2xl font-bold"
+            // style={{fontFamily: "New Valley"}}
             >
                 {title}
             </h1>

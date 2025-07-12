@@ -17,7 +17,7 @@ export const projects = [
         title: "Learnt OpenCV",
         description: "Explored OpenCV to contribute to an oceanography research.",
         bg: "bg-[linear-gradient(90deg,_rgba(51,0,0,1)_0%,_rgba(136,0,0,1)_50%,_rgba(255,69,0,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(51,0,0,0.6)_0%,_rgba(136,0,0,0.65)_50%,_rgba(255,69,0,0.70)_100%)] transition-colors duration-200",
-        flowerClass: "absolute w-12 h-12 -bottom-6 left-0",
+        flowerClass: "absolute w-10 h-10 -bottom-4 left-0",
         src:"https://github.com/DharmBharodiya/OpenCV"
     },
     {
@@ -46,18 +46,18 @@ export const projects = [
     //     bg: "bg-[linear-gradient(90deg,_rgba(51,51,0,1)_0%,_rgba(76,76,76,1)_50%,_rgba(128,128,128,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(51,51,0,0.6)_0%,_rgba(76,76,76,0.65)_50%,_rgba(128,128,128,0.70)_100%)] transition-colors duration-200",
     //     flowerClass: "absolute w-6 h-6 -bottom-2 left-20 -translate-x-1/2"
     // },
-    {
-        title: "Insta scroll benchmarking",
-        description: "Tested thumb fatigue limits across 3 time zones.",
-        bg: "bg-[linear-gradient(90deg,_rgba(0,51,0,1)_0%,_rgba(0,128,0,1)_50%,_rgba(0,255,0,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(0,51,0,0.6)_0%,_rgba(0,128,0,0.65)_50%,_rgba(0,255,0,0.70)_100%)] transition-colors duration-200",
-        flowerClass: "absolute w-14 h-14 -bottom-8 right-1/4",
-        src:"#"
-    },
-    {
-        title: "Took a ride in uber",
-        description: "enjoyed breath-taking cab ride from San Francisco to Las Vegas",
-        bg: "bg-[linear-gradient(90deg,_rgba(0,0,51,1)_0%,_rgba(0,51,102,1)_50%,_rgba(0,102,204,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(0,0,51,0.6)_0%,_rgba(0,51,102,0.65)_50%,_rgba(0,102,204,0.70)_100%)] transition-colors duration-200",
-        flowerClass: "absolute w-10 h-10 -bottom-5 right-5",
-        src:"#"
-    },
+    // {
+    //     title: "Insta scroll benchmarking",
+    //     description: "Tested thumb fatigue limits across 3 time zones.",
+    //     bg: "bg-[linear-gradient(90deg,_rgba(0,51,0,1)_0%,_rgba(0,128,0,1)_50%,_rgba(0,255,0,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(0,51,0,0.6)_0%,_rgba(0,128,0,0.65)_50%,_rgba(0,255,0,0.70)_100%)] transition-colors duration-200",
+    //     flowerClass: "absolute w-14 h-14 -bottom-8 right-1/4",
+    //     src:"#"
+    // },
+    // {
+    //     title: "Took a ride in uber",
+    //     description: "enjoyed breath-taking cab ride from San Francisco to Las Vegas",
+    //     bg: "bg-[linear-gradient(90deg,_rgba(0,0,51,1)_0%,_rgba(0,51,102,1)_50%,_rgba(0,102,204,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(0,0,51,0.6)_0%,_rgba(0,51,102,0.65)_50%,_rgba(0,102,204,0.70)_100%)] transition-colors duration-200",
+    //     flowerClass: "absolute w-10 h-10 -bottom-5 right-5",
+    //     src:"#"
+    // },
 ];
