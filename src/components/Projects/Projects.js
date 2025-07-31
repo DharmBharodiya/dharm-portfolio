@@ -21,8 +21,8 @@ export const projects = [
         src:"https://github.com/DharmBharodiya/OpenCV"
     },
     {
-        title: "Note-Taking App",
-        description: "A minimal, distraction free note taking app",
+        title: "Jot the Note",
+        description: "A minimal, distraction free note taking cum todo app",
         bg: "bg-[linear-gradient(90deg,_rgba(0,0,51,1)_0%,_rgba(0,51,102,1)_50%,_rgba(0,102,204,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(0,0,51,0.6)_0%,_rgba(0,51,102,0.65)_50%,_rgba(0,102,204,0.70)_100%)] transition-colors duration-200",
         flowerClass: "absolute w-10 h-10 -bottom-5 left-5",
         src: "https://brad-react.vercel.app/"
