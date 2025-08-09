@@ -14,11 +14,11 @@ export const projects = [
         src: "https://github.com/DharmBharodiya/math-riot"
     },
     {
-        title: "Learnt OpenCV",
-        description: "Explored OpenCV to contribute to an oceanography research.",
+        title: "Home of Cryptos",
+        description: "A minimal crypto info app built to learn fundamental concepts of react.",
         bg: "bg-[linear-gradient(90deg,_rgba(51,0,0,1)_0%,_rgba(136,0,0,1)_50%,_rgba(255,69,0,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(51,0,0,0.6)_0%,_rgba(136,0,0,0.65)_50%,_rgba(255,69,0,0.70)_100%)] transition-colors duration-200",
         flowerClass: "absolute w-10 h-10 -bottom-4 left-0",
-        src:"https://github.com/DharmBharodiya/OpenCV"
+        src:"https://homeofcryptos.vercel.app/"
     },
     {
         title: "Jot the Note",
