@@ -15,7 +15,7 @@ export const projects = [
     },
     {
         title: "Home of Cryptos",
-        description: "A minimal crypto info app built to learn fundamental concepts of react.",
+        description: "A minimal crypto info app built to learn fundamental concepts of react.(routing, searching, filtering)",
         bg: "bg-[linear-gradient(90deg,_rgba(51,0,0,1)_0%,_rgba(136,0,0,1)_50%,_rgba(255,69,0,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(51,0,0,0.6)_0%,_rgba(136,0,0,0.65)_50%,_rgba(255,69,0,0.70)_100%)] transition-colors duration-200",
         flowerClass: "absolute w-10 h-10 -bottom-4 left-0",
         src:"https://homeofcryptos.vercel.app/"
