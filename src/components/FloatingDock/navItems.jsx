@@ -44,8 +44,6 @@ const navItems = [
     label: "Blog",
     href: "/blog",
     icon: AppWindow,
-    target: "_blank",
-    rel: "noopener noreferrer",
   },
   {
     label: "Socials",
