@@ -1,15 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap");
 
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 @custom-variant dark (&:is(.dark *));
 
 @layer base {
   @font-face {
-    font-family: 'New Valley';
-    src: url('/fonts/new-valley.otf') format('opentype');
+    font-family: "New Valley";
+    src: url("/fonts/new-valley.otf") format("opentype");
   }
   body {
-    font-family: 'Geist', 'Space Grotesk', Arial, sans-serif; /* Reverted to original global font-family */
+    font-family:
+      "Geist", "Space Grotesk", Arial, sans-serif; /* Reverted to original global font-family */
   }
 }
 
@@ -32,11 +34,11 @@
 .shimmer-text {
   background: linear-gradient(
     90deg,
-    #C7D66D 0%,
-    #D1345B 20%,
-    #3454D1 50%,
-    #D1345B 90%,
-    #C7D66D 100%
+    #c7d66d 0%,
+    #d1345b 20%,
+    #3454d1 50%,
+    #d1345b 90%,
+    #c7d66d 100%
   );
   background-size: 200% 100%;
   background-clip: text;
@@ -47,11 +49,11 @@
 .shimmer-text2 {
   background: linear-gradient(
     90deg,
-    #C7D66D 0%,
-    #D1345B 20%,
-    #3454D1 50%,
-    #D1345B 90%,
-    #C7D66D 100%
+    #c7d66d 0%,
+    #d1345b 20%,
+    #3454d1 50%,
+    #d1345b 90%,
+    #c7d66d 100%
   );
   background-size: 200% 100%;
   background-clip: text;
