@@ -13,7 +13,7 @@ function BlogPage() {
       <div className="">
         <Header
           heading="Blog"
-          description={`where i my experiences and learnings`}
+          description={`where i share my experiences and learnings`}
           className={"w-[300px] sm:w-xl mb-6 relative"}
         />
       </div>
