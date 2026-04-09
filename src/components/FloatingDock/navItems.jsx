@@ -1,14 +1,11 @@
 import {
   Home,
   Info,
-  Rss,
-  BriefcaseBusiness,
   File,
   Send,
   Flower,
   LaptopMinimal,
   Images,
-  NotepadText,
   AppWindow,
 } from "lucide-react";
 
