@@ -1,27 +1,28 @@
 export const languages = [
-  { name: "Javascript", color: "#F7DF1E" },
-  { name: "Python", color: "#3776AB" },
-  { name: "Java", color: "#EA2D2E" },
-  { name: "TypeScript", color: "#3178C6" },
+  { name: "Javascript", color: "#F7DF1E", icon: "FileJson" },
+  { name: "Python", color: "#3776AB", icon: "Code" },
+  { name: "Java", color: "#EA2D2E", icon: "Coffee" },
+  { name: "TypeScript", color: "#3178C6", icon: "FileCode" },
 ];
 
 export const frameworksAndTools = [
-  { name: "ReactJS", color: "#61DBFB" },
-  { name: "NodeJS", color: "#3C873A" },
-  { name: "ExpressJS", color: "#a764d3" },
-  { name: "Git", color: "#e94e4e" },
-  { name: "GitHub", color: "#5b6168" },
-  { name: "Postgresql", color: "#5174d6" },
-  { name: "MongoDB", color: "#4CAF50" },
-  { name: "TanStack Query", color: "#EF4444" },
-  { name: "Redux", color: "#764ABC" },
-  { name: "Zustand", color: "#8B6914" },
-  { name: "Zod", color: "#3068AD" },
+  { name: "ReactJS", color: "#61DBFB", icon: "Lightbulb" },
+  { name: "NodeJS", color: "#3C873A", icon: "Server" },
+  { name: "ExpressJS", color: "#a764d3", icon: "Zap" },
+  { name: "Git", color: "#e94e4e", icon: "GitBranch" },
+  { name: "GitHub", color: "#5b6168", icon: "Github" },
+  { name: "Postgresql", color: "#5174d6", icon: "Database" },
+  { name: "MongoDB", color: "#4CAF50", icon: "Leaf" },
+  { name: "TanStack Query", color: "#EF4444", icon: "RefreshCw" },
+  { name: "Redux", color: "#764ABC", icon: "Box" },
+  { name: "Zustand", color: "#8B6914", icon: "Grid" },
+  { name: "Zod", color: "#3068AD", icon: "CheckCircle" },
+  { name: "Prisma", color: "#b666c4", icon: "Database" },
 ];
 
 export const designTools = [
-  { name: "Photoshop", color: "#2f6abd" },
-  { name: "Illustrator", color: "#FF7F00" },
-  { name: "Figma", color: "#0ACF83" },
-  { name: "Procreate", color: "#c44fbd" },
+  { name: "Photoshop", color: "#2f6abd", icon: "Wand" },
+  { name: "Illustrator", color: "#FF7F00", icon: "Pen" },
+  { name: "Figma", color: "#0ACF83", icon: "Square" },
+  { name: "Procreate", color: "#c44fbd", icon: "Paintbrush" },
 ];
