@@ -7,6 +7,7 @@ import PageNotFound from "./pages/PageNotFound";
 import ProjectsPage from "./pages/ProjectsPage";
 import BlogPage from "./pages/BlogPage";
 import BlogDetail from "./components/Blog/BlogDetail";
+import ResumePage from "./pages/ResumePage";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/:slug" element={<BlogDetail />} />
+        <Route path="/resume" element={<ResumePage />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </div>

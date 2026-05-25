@@ -8,7 +8,7 @@ function BlogHeader({ blog }) {
     <div
       className={`text-white flex relative rounded-xl px-4 py-2 pb-2 sm:px-6 sm:py-4 sm:pb-12 ${blog.bg} hover:scale-101 transition-all duration-200 hover:z-9999999`}
     >
-      <div className="mr-4 sm:mr-20">
+      <div className="mr-4 sm:mr-20 w-[95%]">
         <h1
           className="text-xl sm:text-2xl font-bold"
           // style={{fontFamily: "New Valley"}}
@@ -16,7 +16,7 @@ function BlogHeader({ blog }) {
           {blog.title}
         </h1>
         <p className="text-xs sm:text-sm w-2xs sm:w-md">{blog.excerpt}</p>
-        <div className="text-xs flex justify-between items-center mt-2">
+        <div className="text-xs min-w-full flex justify-between items-center mt-2">
           <p>
             <span className="font-semibold">Published:</span>{" "}
             {new Date(date).toDateString()}
