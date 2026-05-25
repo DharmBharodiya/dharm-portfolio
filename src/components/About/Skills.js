@@ -23,6 +23,6 @@ export const frameworksAndTools = [
 export const designTools = [
   { name: "Photoshop", color: "#2f6abd", icon: "Wand" },
   { name: "Illustrator", color: "#FF7F00", icon: "Pen" },
-  { name: "Figma", color: "#0ACF83", icon: "Square" },
+  { name: "Figma", color: "#0ACF83", icon: "MousePointer" },
   { name: "Procreate", color: "#c44fbd", icon: "Paintbrush" },
 ];
