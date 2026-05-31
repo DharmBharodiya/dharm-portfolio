@@ -32,9 +32,10 @@ const navItems = [
   },
   {
     label: "Resume",
-    href: "https://drive.google.com/file/d/1OLCHGoYwxc2WpO2fiy2NKv-_jP_PjoX9/view?usp=sharing",
+    // href: "https://drive.google.com/file/d/1OLCHGoYwxc2WpO2fiy2NKv-_jP_PjoX9/view?usp=sharing",
+    href: "/resume",
     icon: File,
-    target: "_blank",
+    // target: "_blank",
     rel: "noopener noreferrer",
   },
   {

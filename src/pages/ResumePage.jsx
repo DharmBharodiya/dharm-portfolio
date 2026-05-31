@@ -33,17 +33,12 @@ function ResumePage() {
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6, ease: "easeOut", delay: 1 }}
+        transition={{ duration: 0.6, ease: "easeOut", delay: 0.3 }}
       >
         <div className="dark:text-white text-2xl text-black leading-6 mt-6 mb-6">
           <h1>
-            <span className="relative group text-red-400 cursor-pointer font-medium">
-              <a
-                href="mailto:dharmbharodiya@gmail.com"
-                className="shimmer-text2"
-              >
-                RESUME UNDER CONSTRUCTION.
-              </a>
+            <span className="relative group text-red-400 cursor-pointer font-medium shimmer-text2">
+              RESUME UNDER CONSTRUCTION.
             </span>
           </h1>
         </div>
