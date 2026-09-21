@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "CodeSync",
+    description:
+      "Real-time collaborative code editor built with Next.js, TypeScript, Yjs, Monaco, WebSockets, PostgreSQL, Prisma, and NextAuth.js. Scaled across Node.js servers with Redis pub/sub, delivering 8ms p50, 17ms p99 latency, zero dropped messages, and byte-for-byte CRDT convergence across 20 concurrent clients, with Vitest and Playwright coverage.",
+    bg: "bg-[linear-gradient(90deg,_rgba(0,51,51,1)_0%,_rgba(0,128,128,1)_50%,_rgba(0,212,255,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(0,51,51,0.6)_0%,_rgba(0,128,128,0.65)_50%,_rgba(0,212,255,0.70)_100%)] transition-colors duration-200",
+    flowerClass: "absolute w-12 h-12 -top-6 right-10",
+    src: "#",
+  },
+  {
     title: "Archive - Second Brain",
     description: "A personal knowledge management app for you.",
     bg: "bg-[linear-gradient(90deg,_rgba(2,0,36,1)_0%,_rgba(9,9,121,1)_50%,_rgba(0,212,255,1)_100%)] dark:bg-[linear-gradient(90deg,_rgba(2,0,36,0.65)_0%,_rgba(9,9,121,0.60)_50%,_rgba(0,212,255,0.70)_100%)] transition-colors duration-200",

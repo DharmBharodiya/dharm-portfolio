@@ -7,6 +7,11 @@ function Expereince() {
   return (
     <div className="relative">
       <ContentBox
+        heading="Software Intern | OptimumBrew Tech"
+        description="2026 | I worked as a Full Stack Developer and Applied AI intern, where I worked on real-world applications using Next.js, React, Node.js, Express, PostgreSQL, and MongoDB. I worked across the frontend and backend, built APIs, worked with databases, debugged issues, and also explored basic AI/LLM applications. 
+"
+      />
+      <ContentBox
         heading="Tech Intern | Tatvasoft"
         description="2025 | Learnt & built a full stack web app, working with .NET, Angular, Posgresql."
       />

@@ -18,6 +18,12 @@ export const frameworksAndTools = [
   { name: "Zustand", color: "#8B6914", icon: "Grid" },
   { name: "Zod", color: "#3068AD", icon: "CheckCircle" },
   { name: "Prisma", color: "#b666c4", icon: "Database" },
+  { name: "Pandas", color: "#150458", icon: "Database" },
+  { name: "NumPy", color: "#4D77CF", icon: "Sigma" },
+  { name: "Matplotlib", color: "#11557C", icon: "BarChart3" },
+  { name: "Bun JS", color: "#F9F1E1", icon: "Zap" },
+  { name: "Hono JS", color: "#FF6B35", icon: "Globe" },
+  { name: "Next.js", color: "#111111", icon: "Triangle" },
 ];
 
 export const designTools = [
